@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 path = []
 
 
-def dijkstra(graph, start, end, visited=[], distances={}, pre={}) -> list:
+def dijkstra(graph, start, end, visited=[], distances={}, pre={}):
     global path
     if start == end:
         path = []
